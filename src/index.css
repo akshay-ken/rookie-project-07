@@ -8,7 +8,9 @@
 }
 @layer base {
   body {
-    @apply font-one bg-[url('./assets/images/bg-mobile.png')] bg-no-repeat bg-cover h-screen ;
+    @apply font-one bg-[url('./assets/images/bg-mobile.png')] bg-no-repeat bg-cover h-screen md:bg-[url('./assets/images/bg-desktop.png')] 
+    md:bg-contain md:bg-bottom md:bg-Blue-950
+    ;
   }
 }
 @theme {

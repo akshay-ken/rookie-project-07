@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); 
 @import "tailwindcss";
 
 @layer components {
@@ -12,4 +13,6 @@
   --color-Grayish-Blue: hsl(229, 7%, 55%);
   --color-Blue-850: hsl(228, 56%, 26%);
   --color-Blue-950: hsl(229, 57%, 11%);
+  /* google font */
+  --font-one: Raleway;
 }

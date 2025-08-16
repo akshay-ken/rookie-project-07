@@ -5,7 +5,16 @@ export function SliderSection() {
         You’ve used <span className="font-semibold text-white"> 815 GB </span>{" "}
         of your storage
       </p>
-      <div></div>
+      <div className="flex flex-col">
+        <label htmlFor="slider" className="sr-only">
+          slider
+        </label>
+        <input type="range" id="slider" className="w-full" />
+        <div className="flex flex-row items-start justify-between">
+          <label htmlFor="slider">0 GB</label>
+          <label htmlFor="slider">100 GB</label>
+        </div>
+      </div>
     </section>
   );
 }

@@ -1,7 +1,9 @@
+import { HeaderSection } from "./components/HeaderSection";
+
 function App() {
   return (
     <>
-      <h1>working</h1>
+      <HeaderSection />
     </>
   );
 }

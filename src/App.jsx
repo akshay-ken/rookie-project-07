@@ -1,7 +1,13 @@
+import { HeaderSection } from "./components/HeaderSection";
+import { SliderSection } from "./components/SliderSection";
+
 function App() {
   return (
     <>
-      <h1>working</h1>
+      <main className="flex h-screen flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
+        <HeaderSection />
+        <SliderSection />
+      </main>
     </>
   );
 }

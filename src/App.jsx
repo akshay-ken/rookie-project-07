@@ -3,7 +3,7 @@ import { HeaderSection } from "./components/HeaderSection";
 function App() {
   return (
     <>
-      <main>
+      <main className="flex flex-col items-center justify-center gap-4 md:gap-8">
         <HeaderSection />
       </main>
     </>

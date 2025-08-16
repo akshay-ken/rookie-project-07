@@ -60,8 +60,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Challenges
 
-- Problem: i was unable to use both rounded-2xl and rounded-tr-full tailwind class
-- solution: i checked computed values in my dev tool for that element and it showed both values are applied the issue is 2xl value is really small and full value is really big in e so i used custo rem value for it and it solved my issue;
+> Problem: i was unable to use both rounded-2xl and rounded-tr-full tailwind class
 
-- problem: i wonderd to use lable or span tag for range type input
-- solution: but then decide for accessiblity i will use lables along with my range input and put them in flexbox.
+- **solution**:- i checked computed values in my dev tool for that element and it showed both values are applied the issue is 2xl value is really small and full value is really big in e so i used custom rem value for it and it solved my issue;
+
+> problem: i wondered to use label or span tag for range type input
+
+- **solution**:- but then decide for accessibility i will use labels along with my range input and put them in flex-box.

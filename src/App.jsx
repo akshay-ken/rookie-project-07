@@ -3,7 +3,9 @@ import { HeaderSection } from "./components/HeaderSection";
 function App() {
   return (
     <>
-      <HeaderSection />
+      <main>
+        <HeaderSection />
+      </main>
     </>
   );
 }

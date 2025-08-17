@@ -23,7 +23,7 @@ export function SliderSection() {
           }}
         />
 
-        <div className="flex flex-row items-start justify-between">
+        <div className="mt-2 flex flex-row items-start justify-between text-sm font-bold text-white">
           <label htmlFor="slider">0 GB</label>
           <label htmlFor="slider">1000 GB</label>
         </div>

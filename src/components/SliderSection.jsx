@@ -9,10 +9,23 @@ export function SliderSection() {
         <label htmlFor="slider" className="sr-only">
           slider
         </label>
-        <input type="range" id="slider" className="w-full" />
+        <input
+          type="range"
+          id="slider"
+          className="h-2 appearance-none rounded-xl"
+          min={0}
+          max={1000}
+          value={800}
+          step={100}
+          style={{
+            backgroundImage: `linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) ${80}%,
+             hsl(229, 57%, 11%) ${80}%, hsl(229, 57%, 11%) 100%)`,
+          }}
+        />
+
         <div className="flex flex-row items-start justify-between">
           <label htmlFor="slider">0 GB</label>
-          <label htmlFor="slider">100 GB</label>
+          <label htmlFor="slider">1000 GB</label>
         </div>
       </div>
       <div className="absolute top-[75%] right-[20%] left-[20%] flex flex-row items-center justify-center gap-x-4 rounded-xl bg-white p-4 md:-top-[25%] md:right-[5%] md:left-[60%]">
@@ -21,7 +34,7 @@ export function SliderSection() {
           gb left
         </span>
       </div>
-      <div class="hidden h-0 w-0 border-t-[0px] border-r-[30px] border-b-[50px] border-t-transparent border-r-white border-b-transparent md:absolute md:top-[10%] md:right-[5%] md:block"></div>
+      <div className="hidden h-0 w-0 border-t-[0px] border-r-[30px] border-b-[50px] border-t-transparent border-r-white border-b-transparent md:absolute md:top-[10%] md:right-[5%] md:block"></div>
     </section>
   );
 }

@@ -1,11 +1,11 @@
 export function SliderSection() {
   return (
     <section className="w-sm rounded-2xl bg-Blue-850 p-6 md:w-xl">
-      <p className="text-base text-white/80">
+      <p className="mt-2 text-base text-white/80">
         You’ve used <span className="font-semibold text-white"> 815 GB </span>{" "}
         of your storage
       </p>
-      <div className="flex flex-col">
+      <div className="mt-4 mb-8 flex flex-col">
         <label htmlFor="slider" className="sr-only">
           slider
         </label>

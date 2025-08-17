@@ -67,3 +67,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 > problem: i wondered to use label or span tag for range type input
 
 - **solution**:- but then decide for accessibility i will use labels along with my range input and put them in flex-box.
+
+> problem: created box with absolute and relative positioning but now wanted to add tail on desktop view using tailwindcss.
+
+- **solution** : i was able to shift position of box on desktop and mobile view but having trouble creating its tail so i asked ai to just write simple triangle using div tag and it gave me bare minimum structure which i modified latter and made it look like speech buble as whole.

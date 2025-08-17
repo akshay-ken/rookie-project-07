@@ -71,3 +71,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 > problem: created box with absolute and relative positioning but now wanted to add tail on desktop view using tailwindcss.
 
 - **solution** : i was able to shift position of box on desktop and mobile view but having trouble creating its tail so i asked ai to just write simple triangle using div tag and it gave me bare minimum structure which i modified latter and made it look like speech buble as whole.
+
+> problem : i tried to make slider look exactly as the same and add interactivity to it even when challange just says to make it look right but not working.
+
+- **solution** : and now i realize why it didn't ask to make it interactive because it cant if you use input range element for it so while trying to separate both colored and uncolored portion of slider i realized i cant change it simply without adding more complexity or guidance from senior dev as i tried to debug it for 4hrs with ai its waste of time to separate those two gradient and make other end of gradient rounded is so hard but i was able to make other progress bar behind it and made it look 90% as design only thing was left that right round on gradient edge which is hard so i decided to keep it simple and changed the design of slider.
